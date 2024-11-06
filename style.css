@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1d;
+    color: #f4f4f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #222831;
+}
+
+header img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+header h1, header p {
+    color: #00adb5;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #393e46;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #f4f4f9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00adb5;
+}
+
+/* Section Styles */
+section.content-section {
+    display: none;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #393e46;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 173, 181, 0.2);
+}
+
+section.content-section.active {
+    display: block;
+}
+
+h2 {
+    color: #00adb5;
+}
+
+.blog-post h3 {
+    color: #00adb5;
+}
+
+.blog-post p.date {
+    font-size: 0.9em;
+    color: #cccccc;
+}
+
+/* SoundCloud Buttons */
+.soundcloud-buttons {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.soundcloud-buttons button {
+    background-color: #00adb5;
+    border: none;
+    padding: 10px 20px;
+    color: #1a1a1d;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.soundcloud-buttons button:hover {
+    background-color: #00cfcf;
+}
+
+/* SoundCloud Player */
+#soundcloud-player {
+    margin-top: 20px;
+    text-align: center;
+}
