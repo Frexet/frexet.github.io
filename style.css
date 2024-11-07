@@ -101,3 +101,13 @@ h2 {
     margin-top: 20px;
     text-align: center;
 }
+
+/* footer */
+footer {
+    background-color: #393e46;
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
