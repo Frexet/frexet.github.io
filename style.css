@@ -21,7 +21,7 @@ header {
 
 header img {
     width: 150px;
-    border-radius: 50%;
+    border-radius: 35%;
 }
 
 header h1, header p {
@@ -65,14 +65,20 @@ h2 {
     color: #00adb5;
 }
 
+/* Blog Style */
 
 .blog-post h3 {
+    font-size: 1.2em;
     color: #00adb5;
 }
 
 .blog-post p.date {
     font-size: 0.9em;
     color: #cccccc;
+}
+
+.blog-post p {
+    font-size: 1em;
 }
 
 /* SoundCloud Buttons */
@@ -105,9 +111,11 @@ h2 {
 /* footer */
 footer {
     background-color: #393e46;
-    font-size: small;
+    color: gold;
+    font-size: 0.9rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     justify-content: center;
     font-style: italic;
+    font-weight: bold;
 }
