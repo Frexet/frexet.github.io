@@ -7,6 +7,11 @@ function showSection(sectionId) {
     document.getElementById(sectionId).classList.add('active');
 }
 
+function toggleSection(id) {
+    const content = document.getElementById(id);
+    content.style.display = content.style.display === 'none' ? 'block' : 'none';
+}
+
 // Show Home section by default on load
 document.addEventListener("DOMContentLoaded", () => {
     showSection('home');
