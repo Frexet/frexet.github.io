@@ -64,6 +64,15 @@ section.content-section.active {
 h2 {
     color: #00adb5;
 }
+.content {
+    display: none; /* Hide all sections initially */
+}
+
+.toggle-btn {
+    cursor: pointer;
+    color: #00adb5;
+    text-decoration: underline;
+}
 
 /* Blog Style */
 
