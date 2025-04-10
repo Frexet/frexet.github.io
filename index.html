@@ -12,11 +12,14 @@
     <!-- Header Section -->
     <header>
         <img src="pitcures/cvbild.jpg" alt="My Photo">
-        <h1>Welcome to Frexet World!</h1>
-        <p><strong>Follow my journey to become a <br>Fullstack Software Developer (.NET)</strong></p>
-        <p><strong>School days blog!<br>Listen to my music<br>Read my Resume</strong></p>
-        <p style="display: inline-block; animation: pulse 1.5s infinite;">
-            Th1s s1te 1s a sch00l pr0j3ct – 1t 3v0lv3s w1th m3!</p>
+        <h1 style="font-size: 2.5em; color: #00bcd4; margin-bottom: 0.2em;">Hi, I'm Fredric 👋</h1>
+        <p style="font-size: 1.2em; color: #ccc;">Crafting code & composing music – one line and beat at a time</p>
+        <p style="font-size: 1.1em; color: #00ffc8;"><strong>Currently seeking a 12-week internship as a <br>Fullstack Software Developer (.NET)</strong></p>
+        <p><strong><br>Listen to my music<br>Read my Resume</strong></p>
+        <div style="margin-top: 10px; padding: 10px; background-color: #1e1e1e; border-left: 4px solid #00ffc8; font-style: italic; color: #ccc;">
+            💼 <strong>Actively looking for a 12-week internship or job opportunity</strong><br>
+            Let’s build something amazing together!
+        </div>
         
             <style>
                 @keyframes pulse {
@@ -32,7 +35,7 @@
     <nav>
         <a href="#home" onclick="showSection('home')">Home</a>
         <a href="#cv" onclick="showSection('cv')">Resume</a>
-        <a href="#blog" onclick="showSection('blog')">Blog</a>
+        <!-- <a href="#blog" onclick="showSection('blog')">Blog</a> -->
         <a href="#music" onclick="showSection('music')">Music</a>
     </nav>
 
@@ -55,15 +58,29 @@
         <p>Contact me on <a href="https://www.linkedin.com/in/fredric-karlsson-58065760/" target="_blank">LinkedIn</a>.</p>
         <p><strong>Seeking a 3-month internship</strong></p>
       </header>
+      <p><strong>Motivated and solution-oriented Fullstack Developer student with hands-on experience in both frontend and backend development. Currently seeking a 12-week internship to contribute to real-world projects and further sharpen my skills in .NET and modern cloud technologies.</strong></p>
 
       <section id="about">
-          <h2>Who am I?</h2>
-          <p>My name is Fredric Karlsson, and I am studying to become a Fullstack Software Developer (.NET) at Lexicon.
-          <p>I am currently seeking an internship for my final 12 weeks, where I can apply my knowledge in both front-end and back-end development.</p> 
-          <p>My education has provided me with experience in technologies such as HTML, CSS, JavaScript, C#, SQL, React, and Entity Framework, along with a deeper understanding of cloud-based solutions thanks to my certification in Azure Fundamentals (AZ-900).</p>
-          <p>I am a solution-oriented person who enjoys working toward clear goals, whether in a fast-paced or more structured project environment. With a strong interest in technology and a high capacity to adapt quickly to new challenges, I have worked as an IT trainee at New Wave Group, providing IT support in an international team both on-site and remotely. This experience has enhanced my ability to collaborate effectively in different environments and handle technical issues systematically.</p>
-          <p>Alongside my studies, I have also managed IT solutions like Azure and Office365 for Emmaboda IS, giving me practical experience in implementing and maintaining modern technologies in a community setting. My voluntary involvement in e-sports and board positions has also developed my leadership skills and teamwork abilities, where I have led groups and organized large events.</p>
-          <p>I am comfortable working both remotely and on-site, and I am looking for an internship where I can contribute with my technical skills while continuing to grow in system development and cloud technologies.</p>
+          <h2 style="color: #00ffc8;">Who am I?</h2>
+          <p>Hi! I'm Fredric Karlsson, currently studying to become a Fullstack Software Developer (.NET) at Lexicon. I'm seeking a 12-week internship where I can apply my knowledge in both front-end and back-end development.</p>
+          
+          <p>My education has equipped me with experience in HTML, CSS, JavaScript, C#, SQL, React, and Entity Framework. I'm also certified in Azure Fundamentals (AZ-900), deepening my understanding of cloud-based solutions.</p>
+          
+          <p>As an IT trainee at New Wave Group, I delivered IT support across an international team both remotely and on-site. This enhanced my problem-solving skills and taught me how to collaborate effectively in various work environments.</p>
+          
+          <p>In parallel with my studies, I’ve managed IT solutions such as Azure and Office365 for Emmaboda IS. My volunteer leadership experience in e-sports has further developed my ability to lead and work in teams.</p>
+          
+          <div style="background-color: #1e1e1e; padding: 15px; border-left: 4px solid #00ffc8; margin: 20px 0;">
+              <h3 style="margin-top: 0; color: #00ffc8;">Technologies & Tools</h3>
+              <ul style="list-style: none; padding-left: 0; line-height: 1.6;">
+                  <li><strong>Languages:</strong> C#, JavaScript, SQL</li>
+                  <li><strong>Frameworks:</strong> .NET, React</li>
+                  <li><strong>Tools:</strong> Azure, Entity Framework, Git, Visual Studio</li>
+                  <li><strong>Databases:</strong> SQL Server</li>
+              </ul>
+          </div>
+      
+          <p>I’m comfortable working both remotely and on-site, and I’m eager to contribute to meaningful projects while continuing to grow in software and cloud development.</p>
       </section>
 
       <section id="employment">
@@ -201,6 +218,7 @@
   </section>
 
   <!-- Blog Section -->
+<!--
   <section id="blog" class="content-section">
     <div class="blog-post">
         <h2>My School Days</h2>
@@ -246,23 +264,17 @@
         <img src="pitcures/blogg/cssdog.webp" style="width:50%; margin-top:10px;">
       </div>
   </section>
+-->
 
-  <!-- Music Section with SoundCloud Players -->
+
   <section id="music" class="content-section">
-    <h2>My Music Mixes</h2>
-    <p>I worked as a DJ for a long time for fun back in the days. Feel free to listen to my 2 mixes on soundcloud</p>
-    <p>Choose a mix to listen to:</p>
+      <h2>My Music on Spotify</h2>
+      <p>I’ve moved all my music to Spotify – check it out below!</p>
 
-    <!-- SoundCloud Player Buttons -->
-    <div class="soundcloud-buttons">
-        <button onclick="loadMix('tech-house')">Tech House Mix</button>
-        <button onclick="loadMix('edm-remix')">First Remix - EDM</button>
-    </div>
-
-    <!-- SoundCloud Player iframe (changes based on button click) -->
-    <div id="soundcloud-player">
-        <!-- SoundCloud player will be loaded here -->
-    </div>
+      <!-- Spotify Embed -->
+      <div id="spotify-player">
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4AR1frPwyNSRW5UJojAzOv?utm_source=generator" width="100%" height="380" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
   </section>
 
 <!--Footer-->
