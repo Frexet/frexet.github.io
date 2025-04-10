@@ -44,7 +44,10 @@ nav a {
 }
 
 nav a:hover {
-    color: #00adb5;
+    color: #00ffc8;
+    text-decoration: underline;
+    text-shadow: 0 0 5px #00ffc8;
+    transition: all 0.3s ease;
 }
 
 /* Section Styles */
@@ -156,4 +159,11 @@ footer {
     justify-content: center;
     font-style: italic;
     font-weight: bold;
+}
+
+.toggle-btn:hover {
+    color: #00ffc8;
+    text-shadow: 0 0 5px #00ffc8;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
